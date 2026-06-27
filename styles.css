@@ -2,7 +2,8 @@ body {
 
 display: flex;
 flex-direction: column;
-
+margin: 0;
+padding: 0;
 }
 
 /*1st section*/
@@ -11,7 +12,9 @@ header {
  
 display: flex;
 flex-direction: column;
+padding: 50px;
 
+background-color: #1F2937;
 
 }
 
@@ -21,53 +24,76 @@ flex-direction: column;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+   gap: 300px;
+    background-color: #1F2937;
 }
 
 ul {
     display: flex;
     gap: 8px;
+  
     list-style: none;
 }
 
 a {
     text-decoration: nones;
+    color: #E5E7EB;
 }
 
 .info{
 
 
     display: flex;
-    gap: 10px;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    flex-grow: 1;
+    padding: 50px;
+    padding-bottom: 100PX;
+    align-items: center;
+  
+    
 }
 
 .info .mssge{
 
 display: flex;
-max-width: 200px;
+max-height: 200px;
+max-width: 300px;
+color: white;
+background-color: #1F2937;
 flex-direction: column;
-justify-content: center;
+justify-content: space-be;
 align-items: center;
 }
 
 .mssge .txt{
 
-font-size: 16px;
+font-size: 48px;
 font-weight: 900;
-
+margin: 0;
 
 }
 
 .mssge .sub-txt{
 
-text-align: justify;
 
 
+}
+
+.hdr-bttn{
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+align-self: flex-start;
+background-color: #3882F6;
+border-radius: 5px;
+border: none;
 }
 .info .img{
 
 
     height: 200px;
-    width: 200px;
+    width: 350px;
     align-self: center;
 }
 /*1st section*/
