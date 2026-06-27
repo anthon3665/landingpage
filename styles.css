@@ -4,7 +4,7 @@ display: flex;
 flex-direction: column;
 margin: 0;
 padding: 0;
-}
+font-family: 'Roboto', sans-serif;}
 
 /*1st section*/
 header {
@@ -24,7 +24,7 @@ background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-   gap: 300px;
+   gap: 500px;
     background-color: #1F2937;
 }
 
@@ -38,6 +38,13 @@ ul {
 a {
     text-decoration: nones;
     color: #E5E7EB;
+}
+
+.logo{
+
+    font-size: 24px;
+   font-weight: bold;
+    color: #F9FAF8;
 }
 
 .info{
@@ -57,12 +64,12 @@ a {
 .info .mssge{
 
 display: flex;
-max-height: 200px;
-max-width: 300px;
+height: 250px;
+width: 500px;
 color: white;
 background-color: #1F2937;
 flex-direction: column;
-justify-content: space-be;
+
 align-items: center;
 }
 
@@ -93,7 +100,10 @@ border: none;
 
 
     height: 200px;
-    width: 350px;
+    width: 450px;
     align-self: center;
+    border-radius: 3px;
 }
 /*1st section*/
+
+
